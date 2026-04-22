@@ -153,7 +153,7 @@ This codebase builds upon open-source components from [SAC](https://github.com/S
 
 ## Citation
 
-If you find our work useful, please cite our work as:
+If you find our work useful in your research, please consider citing:
 
 ```bibtex
 @misc{zheng2026xvczeroshotstreamingvoice,
@@ -166,3 +166,6 @@ If you find our work useful, please cite our work as:
       url={https://arxiv.org/abs/2604.12456},
 }
 ```
+## Lisence
+
+This project is licensed under the MIT License.
