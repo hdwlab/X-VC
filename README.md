@@ -39,7 +39,7 @@ Then set paths in [`configs/xvc.yaml`](configs/xvc.yaml), especially:
 
 ### 4. Prepare checkpoints
 
-Put checkpoints under `ckpts/`, for example:
+Put [X-VC checkpoints](https://huggingface.co/chenxie95/X-VC) under `ckpts/`, for example:
 
 ```text
 ckpts/
