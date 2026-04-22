@@ -1,7 +1,7 @@
 # X-VC
 
 [![arXiv](https://img.shields.io/badge/arXiv-2604.12456-b31b1b.svg)](https://arxiv.org/abs/2604.12456)
-[![Hugging Face](https://img.shields.io/badge/HuggingFace-Model-fcd022?logo=huggingface&logoColor=000)](https://huggingface.co/chenxie95/X-VC)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Model-FFD21E?logo=huggingface&logoColor=white)](https://huggingface.co/chenxie95/X-VC)
 [![Demo Page](https://img.shields.io/badge/Demo-Project%20Page-blue)](https://x-vc.github.io)
 
 Official code release for **X-VC: Zero-shot Streaming Voice Conversion in Codec Space**.
@@ -166,6 +166,6 @@ If you find our work useful in your research, please consider citing:
       url={https://arxiv.org/abs/2604.12456},
 }
 ```
-## Lisence
+## License
 
 This project is licensed under the MIT License.
