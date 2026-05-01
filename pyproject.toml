@@ -21,7 +21,7 @@ dependencies = [
     "soundfile>=0.12.0",
     "soxr>=0.3.0",
     "tqdm>=4.60.0",
-    "einx>=0.3.0",
+    "einx",
     "transformers>=4.44.0",
     "packaging>=21.0",
     "torch>=2.0.0",
