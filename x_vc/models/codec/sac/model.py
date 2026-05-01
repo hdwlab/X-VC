@@ -73,7 +73,7 @@ class XVC(nn.Module):
     @classmethod
     def load_from_checkpoint(
         cls, 
-        config_path: Path, 
+        cfg: dict, 
         ckpt_path: Path, 
         device: torch.device, **kwargs
     ):
@@ -81,7 +81,7 @@ class XVC(nn.Module):
         Load pre-trained model
 
         Args:
-            config_path (Path): path to the model model configuration.
+            cfg (dict): The model configuration.
             ckpt_path (Path): path of model checkpoint.
             device (torch.device): The device to load the model onto.
 
@@ -91,7 +91,6 @@ class XVC(nn.Module):
         Returns:
             model (nn.Module): The loaded model instance.
         """
-        cfg = load_config(config_path)
         if "config" in cfg.keys():
             cfg = cfg["config"]
 

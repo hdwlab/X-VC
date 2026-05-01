@@ -22,7 +22,7 @@ def load_xvc(device="cpu"):
 
     model = hydra.utils.instantiate(cfg.model.generator)
     model = model.load_from_checkpoint(
-        conf_path,
+        cfg,
         ckpt_path,
         device=device,
         ema_load=False,
